@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+
+    /* Linear Gradient - Top to Bottom */
+    /* background-image: linear-gradient(red, yellow); */
+
+    /* Linear Gradient - Left to Right */
+    /* background-image: linear-gradient(to right, red, yellow); */
+
+    /* Linear Gradient - Diagonal */
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+
+
+    /* Ellipse */
+    /* background-image: radial-gradient(red, yellow, green); */
+
+    /* Circle */
+    /* background-image: radial-gradient(circle, red, yellow, green); */
+
+    /* Conic Gradient */
+    /* background-image: conic-gradient(red, yellow, green, blue, black); */
+}
