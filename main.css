@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    margin: 100px;
+    width: 900px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    order: 1;
+    background-color: red;
+}
+
+.box2 {
+    order: 1;
+    background-color: blue;
+}
+
+.box3 {
+    order: 2;
+    background-color: yellow;
+}
+
+.box4 {
+    order: 2;
+    background-color: bisque;
+}
+
+.box5 {
+    flex-grow: 1;
+    order: 2;
+    background-color: chartreuse;
+}
