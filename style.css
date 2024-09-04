@@ -1,0 +1,41 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    /* text-shadow: 5px 5px 10px yellow, 10px 10px 5px blue, 15px 15px 5px green; */
+    /* position: static; */
+    /* position: relative;
+    top: 50px; */
+    /* position: absolute;
+    right: 700px;
+    bottom: 300px; */
+}
+
+.boxes {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    background-color: aqua;
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.box1 {
+    right: 0;
+    bottom: 0;
+    background-color: red;
+}
+
+.box2 {
+    top: 400px;
+    background-color: purple;
+}
+
+.box3 {
+    background-color: green;
+}
